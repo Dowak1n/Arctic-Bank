@@ -1,0 +1,24 @@
+.breadcrumbs {
+  background: $c-white;
+  padding: 0 2px;
+  position: absolute;
+  width: 100%;
+
+  .breadcrumbs-content {
+    color: $c-gray-2;
+    font-family: Nunito, serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .underline {
+    background: $c-bg-primary;
+    height: 5px;
+    margin-right: 2px;
+    width: 100%;
+  }
+}

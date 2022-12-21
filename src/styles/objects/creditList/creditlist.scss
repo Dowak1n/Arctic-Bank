@@ -1,0 +1,26 @@
+.credit-list{
+  margin-right: 120px;
+  .credit-list-element {
+    background: $c-bg-tertiary;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    font-family: "Nunito", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    width: 350px;
+    line-height: 20px;
+    box-shadow: 0 2px 2px rgb(0 0 0 / 20%);
+  }
+}
+
+@media (max-width: $screen-sm-max) {
+  .credit-list {
+    margin-right: 0;
+    padding: 0 10px;
+    .credit-list-element {
+      width: auto;
+    }
+  }
+}

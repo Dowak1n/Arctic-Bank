@@ -1,0 +1,8 @@
+export const BREAD_CRUMBS_ELEMENTS = [
+  'DATA STAFF',
+  'WORK',
+  'BANK ACCOUNT',
+  'BANK ONLINE',
+  'DEBIT CARD',
+  'CONFIRMATION',
+];

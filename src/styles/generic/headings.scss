@@ -1,0 +1,31 @@
+h2 {
+  color: $c-font-primary;
+  font-family: Nunito, serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 31px;
+  margin-top: 0;
+  max-width: 403px;
+}
+
+h3 {
+  color: $c-font-secondary;
+  font-family: Nunito, serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: .3px;
+  line-height: 24px;
+  margin-bottom: 23px;
+}
+
+h4 {
+  color: $c-font-primary;
+  font-family: Nunito, serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 17px;
+  margin: 40px 0 10px;
+}

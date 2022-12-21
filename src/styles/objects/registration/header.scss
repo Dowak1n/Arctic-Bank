@@ -1,0 +1,151 @@
+.header-shadow {
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.header-logo{
+  font-family: 'Nunito', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 47px;
+  line-height: 20px;
+  letter-spacing: 5px;
+}
+
+.header {
+  background: $c-white;
+  margin: 28px auto;
+  max-width: 1440px;
+  padding: 0 16px;
+
+  .header-div {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+    .header-navigation{
+      font-family: 'Nunito', serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 20px;
+      text-align: center;
+      .header-navigation-element {
+        margin-right: 23px;
+        text-decoration: none;
+        &.active {
+          color: $c-grey-default;
+        }
+      }
+    }
+
+    .header-navigation-burger{
+    }
+
+    .header-navigation-burger-elements{
+      width: 100%;
+      height: 100%;
+      z-index: 10;
+      background: red;
+    }
+
+    .header-div-button {
+      color: $c-gray;
+      font-family: Nunito, serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 20px;
+      padding: 12px 11px 12px 14px;
+      text-align: center;
+    }
+  }
+}
+
+.active-burger{
+  display: block;
+}
+
+.disabled-burger{
+  display: none;
+}
+
+.burger-navigation-mobile{
+  display: flex;
+  flex-direction: column;
+  padding: 0 50px 0 15px;
+  .burger-navigation-close-button{
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: end;
+  }
+  .burger-navigation-mobile-elements{
+    font-family: 'Nunito', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+    color: #4C4C4C;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    padding: 30px 0;
+    cursor: pointer;
+    border-color: rgba(211, 210, 210, 0.5);;
+  }
+}
+
+.box {
+  display: none;
+}
+
+.mymodal{
+
+}
+
+.mymodal .overlay{
+  z-index: 1;
+  position:fixed;
+  left:0;
+  top:0;
+  width:100%;
+  height:100%;
+  background: rgba(0,0,0,0.7);
+}
+
+.mymodal .content{
+  display:block;
+  height: 100%;
+  width:100%;
+  min-height:300px;
+  background-color: #fefefe;
+  padding:20px;
+  color: #333333;
+  position:relative;
+}
+
+.mymodal .close{
+  position:absolute;
+  right:20px;
+  top:20px;
+  transition: .5s;
+  cursor: pointer;
+}
+
+.mymodal .close:hover{
+  transform: rotate(180deg);
+}
+
+@media (max-width: 666px) {
+  .header-div-button {
+    display: none;
+  }
+  .header-navigation{
+    display: none;
+  }
+}
+
+@media (min-width: 666px) {
+  .header-navigation-burger{
+    display: none;
+  }
+}

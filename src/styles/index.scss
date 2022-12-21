@@ -1,0 +1,30 @@
+// settings
+@import "settings/colors";
+@import "settings/variables";
+
+// generic
+@import "generic/base";
+@import "generic/headings";
+
+// elements
+@import "elements/breadcrumbs";
+@import "elements/fields";
+@import "elements/buttons";
+
+// objects
+@import "objects/registration/header";
+@import "objects/registration/form";
+@import "objects/registration/card";
+@import "objects/registration/footer";
+@import "objects/registration/cookies";
+@import "objects/registration/partners";
+@import "objects/login/form";
+@import "objects/user/user";
+@import "objects/calculator/calculator";
+@import "objects/product/product";
+@import "objects/payment/payment";
+@import "objects/creditList/creditlist";
+
+// fonts
+@import "https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Quicksand:wght@700&display=swap";
+@import "https://fonts.googleapis.com/css?family=Quicksand";

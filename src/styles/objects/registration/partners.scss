@@ -1,0 +1,16 @@
+.registration-sponsors {
+  align-items: center;
+  background: $c-bg-primary;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 55px 0;
+
+  &.sponsors-green {
+    background: $c-bg-secondary;
+  }
+
+  &.sponsors-white {
+    background: $c-bg-primary;
+  }
+}

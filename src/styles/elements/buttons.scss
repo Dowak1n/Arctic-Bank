@@ -1,0 +1,99 @@
+.button {
+  border: none;
+  border-radius: 4px;
+  color: $c-button-primary;
+  font-family: Quicksand, serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  justify-content: center;
+  letter-spacing: .3px;
+  line-height: 23px;
+  margin: 30px 0 40px;
+  padding: 14px 0;
+  text-align: center;
+  transition: .5s;
+  width: 100%;
+
+  &.remain {
+    background: $c-button-secondary-bg;
+
+    &:hover,:focus {
+      background: $c-button-secondary-bg-hover;
+      color: $c-button-secondary-hover;
+      outline: $c-button-secondary-hover 2px solid;
+    }
+
+    &:active {
+      background: $c-button-secondary-hover;
+      color: $c-button-secondary-bg-hover;
+      outline: $c-button-secondary-hover 2px solid;
+    }
+  }
+
+  &.next {
+    background: $c-button-primary-bg;
+
+    &:hover,:focus {
+      background: $c-button-primary-bg-hover;
+      color: $c-button-primary-hover;
+      outline: $c-button-primary-hover 2px solid;
+    }
+
+    &:active {
+      background:  $c-button-primary-hover;
+      color:  $c-button-primary-bg-hover;
+      outline: $c-button-primary-hover 2px solid;
+    }
+  }
+
+  &.exit {
+    background: $c-button-primary-bg;
+    margin-bottom: 0;
+
+    &:hover,:focus {
+      background: $c-button-primary-bg-hover;
+      color: $c-button-primary-hover;
+      outline: $c-button-primary-hover 2px solid;
+    }
+
+    &:active {
+      background: $c-button-primary-hover;
+      color: $c-button-primary-bg-hover;
+      outline: $c-button-primary-hover 2px solid;
+    }
+  }
+
+  &.step {
+    background: $c-button-tertiary-bg;
+    width: 100%;
+    color: $c-font-primary;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 20px;
+  }
+
+  &.less {
+    background: $c-grey-default;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  &.payment{
+    background: $c-green;
+    margin-bottom: 0;
+    width: 100%;
+    &:hover,:focus,:active {
+      background: $c-button-primary-bg-hover;
+      color: $c-green;
+      outline: $c-green 2px solid;
+    }
+  }
+
+  &:disabled {
+    background: $c-orange-2;
+    color: $c-font-secondary;
+  }
+}

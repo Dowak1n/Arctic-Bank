@@ -1,0 +1,39 @@
+.login-container {
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  padding: 100px 16px 176px;
+
+  .login-logo {
+    height: 32px;
+    margin-bottom: 25px;
+    width: 181px;
+  }
+
+  .login-content {
+    background: $c-bg-primary;
+    box-shadow: 0 2px 5px $c-box-shadow-secondary;
+    display: flex;
+    flex-direction: column;
+    padding: 60px 60px 38px;
+    width: 440px;
+  }
+
+  .login-text-link{
+    color: $c-font-primary;
+    font-family: Nunito, serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+    text-decoration: underline;
+  }
+}
+
+@media (max-width: $screen-sm-max) {
+  .login-container {
+    background-size: auto;
+    padding: 80px 15px 60px;
+  }
+}
